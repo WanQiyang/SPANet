@@ -48,7 +48,7 @@ Furthermore, if you choose to use some else split other than `train_cropped_augm
 ```
 
 Next, you need to download some metadata.
-The first component required is CUB captions, which come from [https://github.com/taoxugit/AttnGAN] and can be downloaded [here](https://drive.google.com/file/d/1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ/view).
+The first component required is CUB captions, which come from [https://github.com/taoxugit/AttnGAN](https://github.com/taoxugit/AttnGAN) and can be downloaded [here](https://drive.google.com/file/d/1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ/view).
 Once the download is complete, you should extract the files to organize the directory in the following structure:
 
 ```
@@ -58,7 +58,7 @@ Once the download is complete, you should extract the files to organize the dire
 ./datasets/CUB/captioning/text/200.Common_Yellowthroat/Common_Yellowthroat_0126_190407.txt
 ```
 
-In addition, some more metadata is required for download, which I have uploaded in the [release](https://github.com/WanQiyang/SPANet/releases).
+In addition, some more metadata is required for download, which I have uploaded in the [release](https://github.com/WanQiyang/SPANet/releases/tag/v2-cub_metadata).
 Once extracted, the structure should appear as follows:
 
 ```
@@ -69,7 +69,7 @@ Once extracted, the structure should appear as follows:
 
 ## Model Weights Preparation
 
-Download model weights (including pretrained weights from CLIP) from [the latest published release](https://github.com/WanQiyang/SPANet/releases) of this repository. Unzip `pretrained_models.zip` to `pretrained_models/clip`, and unzip `my_models.zip` to `my_models`.
+Download model weights (including pretrained weights from CLIP) from the [release](https://github.com/WanQiyang/SPANet/releases/tag/v1-models) of this repository. Unzip `pretrained_models.zip` to `pretrained_models/clip`, and unzip `my_models.zip` to `my_models`.
 
 `pretrained_models` and `my_models` should look like this:
 
