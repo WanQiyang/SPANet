@@ -163,3 +163,5 @@ cython_debug/
 my_models/*.pth
 pretrained_models/clip/*.pt
 pretrained_models/clip/*.zip
+
+.vscode
